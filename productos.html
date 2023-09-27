@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frameworks de Desarrollo Web - Productos</title>
+    <!-- Agregar los enlaces para los archivos CSS de Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <style>
+      .card {
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+      }
+
+      .card .card-img-top {
+        height: 200px;
+        object-fit: contain;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Barra de navegación -->
+
+    <!-- ... Código de la barra de navegación ... -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html">Desarrollo Web</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">Información</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/recursos.html">Recursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Contenido principal -->
+    <div class="container mt-5">
+      <h2 class="mb-4">Herramientas populares</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="/src/1280px-Flask_logo.svg.png"
+              class="card-img-top"
+              alt="Flask"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Flask</h5>
+              <p class="card-text">
+                Flask es un microframework web escrito en Python. Es fácil de
+                aprender y se centra en la simplicidad y extensibilidad. Se
+                utiliza comúnmente para desarrollar aplicaciones web pequeñas y
+                medianas.
+              </p>
+              <p class="card-text">Dificultad: Baja</p>
+              <a
+                href="https://flask.palletsprojects.com/"
+                class="btn btn-primary"
+                >Ir a la página oficial</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="/src/django-icon-0.png"
+              class="card-img-top"
+              alt="Django"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Django</h5>
+              <p class="card-text">
+                Django es un framework web de alto nivel y de código abierto
+                basado en Python. Proporciona una estructura robusta para el
+                desarrollo rápido y seguro de aplicaciones web. Se utiliza
+                ampliamente en proyectos de todos los tamaños.
+              </p>
+              <p class="card-text">Dificultad: Media</p>
+              <a href="https://www.djangoproject.com/" class="btn btn-primary"
+                >Ir a la página oficial</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="/src/laravelLogo.png"
+              class="card-img-top"
+              alt="Laravel"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Laravel</h5>
+              <p class="card-text">
+                Laravel es un framework web elegante y completo escrito en PHP.
+                Ofrece una sintaxis expresiva y herramientas para facilitar el
+                desarrollo de aplicaciones web modernas y seguras. Es
+                ampliamente utilizado en la comunidad de desarrollo PHP.
+              </p>
+              <p class="card-text">Dificultad: Media</p>
+              <a href="https://laravel.com/" class="btn btn-primary"
+                >Ir a la página oficial</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="/src/590px-Node.js_logo.svg.png"
+              class="card-img-top"
+              alt="Node.js"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Node.js</h5>
+              <p class="card-text">
+                Node.js es un entorno de ejecución de JavaScript del lado del
+                servidor. Permite construir aplicaciones web escalables y de
+                alto rendimiento utilizando JavaScript tanto en el servidor como
+                en el cliente. Es muy popular en el desarrollo de aplicaciones
+                en tiempo real.
+              </p>
+              <p class="card-text">Dificultad: Alta</p>
+              <a href="https://nodejs.org/" class="btn btn-primary"
+                >Ir a la página oficial</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="/src/AngularLogo.png"
+              class="card-img-top"
+              alt="Angular"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Angular</h5>
+              <p class="card-text">
+                Angular es un framework de desarrollo de aplicaciones web de
+                código abierto desarrollado por Google. Utiliza TypeScript y
+                proporciona una estructura robusta y escalable para construir
+                aplicaciones web complejas. Es ampliamente utilizado en el
+                desarrollo empresarial.
+              </p>
+              <p class="card-text">Dificultad: Alta</p>
+              <a href="https://angular.io/" class="btn btn-primary"
+                >Ir a la página oficial</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Agregar los scripts de Bootstrap al final del archivo -->
+    <!-- ... Código de los scripts de Bootstrap ... -->
+  </body>
+</html>

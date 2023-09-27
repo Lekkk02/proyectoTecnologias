@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recursos - Mi Sitio Web</title>
+    <!-- Agregar los enlaces para los archivos CSS de Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <style>
+      .containerR {
+        max-width: auto;
+        margin: 0 auto;
+        padding: 30px;
+      }
+
+      .navbarContainer {
+        max-width: auto;
+        margin: 0 auto;
+      }
+
+      .resources-section {
+        text-align: center;
+      }
+
+      .resources-section h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .resources-section p {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 20px;
+      }
+
+      .resource {
+        margin-bottom: 30px;
+        text-align: left;
+        box-shadow: -5px 13px 134px -6px rgba(184, 184, 184, 0.41);
+        -webkit-box-shadow: -5px 13px 134px -6px rgba(184, 184, 184, 0.41);
+        -moz-box-shadow: -5px 13px 134px -6px rgba(184, 184, 184, 0.41);
+        padding: 50px;
+      }
+
+      .resource h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+
+      .resource p {
+        font-size: 14px;
+        color: #777;
+        margin-bottom: 10px;
+      }
+
+      .resource a {
+        color: #ffffff;
+        text-decoration: none;
+        margin-right: 10px;
+      }
+
+      .resource a:hover {
+        text-decoration: underline;
+      }
+      .img-logo {
+        width: 120px;
+        align-self: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html">Desarrollo Web</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">Información</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/recursos.html">Recursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Contenido principal -->
+    <div class="containerR">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="resource">
+            <img
+              src="/src/1280px-Flask_logo.svg.png"
+              class="img-logo"
+              alt="Flask"
+            />
+            <h3>Flask</h3>
+            <p>
+              Flask es un framework web ligero y flexible para Python. Permite
+              construir aplicaciones web de manera rápida y sencilla.
+            </p>
+            <a
+              href="https://flask.palletsprojects.com"
+              target="_blank"
+              class="btn btn-primary"
+              >Documentación</a
+            >
+            <a
+              href="https://www.youtube.com/playlist?list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH"
+              target="_blank"
+              class="btn btn-secondary"
+              >Curso de Flask en YouTube</a
+            >
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="resource">
+            <img src="/src/django-icon-0.png" class="img-logo" alt="Django" />
+            <h3>Django</h3>
+            <p>
+              Django es un framework web de alto nivel y robusto para Python.
+              Proporciona una estructura sólida y herramientas eficientes para
+              construir aplicaciones web complejas.
+            </p>
+            <a
+              href="https://docs.djangoproject.com"
+              target="_blank"
+              class="btn btn-primary"
+              >Documentación</a
+            >
+            <a
+              href="https://youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p&si=J0Rn4Z4wzuIzT5l3"
+              target="_blank"
+              class="btn btn-secondary"
+              >Curso de Django en YouTube</a
+            >
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="resource">
+            <img src="/src/laravelLogo.png" class="img-logo" alt="Laravel" />
+            <h3>Laravel</h3>
+            <p>
+              Laravel es un framework web elegante y completo para PHP. Ofrece
+              una sintaxis expresiva y herramientas avanzadas para el desarrollo
+              rápido de aplicaciones web.
+            </p>
+            <a
+              href="https://laravel.com/docs"
+              target="_blank"
+              class="btn btn-primary"
+              >Documentación</a
+            >
+            <a
+              href="https://youtube.com/playlist?list=PLe30vg_FG4OTxKekbWLABcpstdeCDA4LQ&si=z80DbtHbD5PhyPsW"
+              target="_blank"
+              class="btn btn-secondary"
+              >Curso de Laravel en YouTube</a
+            >
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="resource">
+            <img
+              src="/src/590px-Node.js_logo.svg.png"
+              class="img-logo"
+              alt="Node.js"
+            />
+            <h3>Node.js</h3>
+            <p>
+              Node.js es un entorno de ejecución de JavaScript en el lado del
+              servidor. Permite construir aplicaciones web escalables y de alta
+              velocidad.
+            </p>
+            <a
+              href="https://nodejs.org/en/docs"
+              target="_blank"
+              class="btn btn-primary"
+              >Documentación</a
+            >
+            <a
+              href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp"
+              target="_blank"
+              class="btn btn-secondary"
+              >Curso de Node.js en YouTube</a
+            >
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="resource">
+            <img src="/src/AngularLogo.png" class="img-logo" alt="Angular" />
+            <h3>Angular</h3>
+            <p>
+              Angular es un framework de desarrollo de aplicaciones web
+              desarrollado por Google. Facilita la creación de aplicaciones web
+              de una sola página y aplicaciones móviles.
+            </p>
+            <a
+              href="https://angular.io/docs"
+              target="_blank"
+              class="btn btn-primary"
+              >Documentación</a
+            >
+            <a
+              href="https://youtube.com/playlist?list=PL1BztTYDF-QNlGo5-g65Xj1mINHYk_FM9&si=znnz_n9-aLg9WYAB"
+              target="_blank"
+              class="btn btn-secondary"
+              >Curso de Angular en YouTube</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Agregar los scripts de Bootstrap al final del archivo -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

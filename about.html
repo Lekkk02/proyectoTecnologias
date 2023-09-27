@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acerca De - Mi Sitio Web</title>
+    <!-- Agregar los enlaces para los archivos CSS de Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <style>
+      .about-section {
+        padding: 100px 0;
+        text-align: center;
+      }
+
+      .about-section h2 {
+        font-size: 40px;
+        margin-bottom: 30px;
+      }
+
+      .about-section p {
+        font-size: 18px;
+      }
+
+      .github-link {
+        display: inline-block;
+        margin-top: 20px;
+        text-decoration: none;
+        color: #333;
+      }
+
+      .github-link img {
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html">Desarrollo Web</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">Información</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/recursos.html">Recursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Contenido principal -->
+    <div class="container">
+      <div class="about-section">
+        <h2>Acerca De</h2>
+        <p>
+          Bienvenido a mi sitio web. Aquí encontrarás información y recursos
+          sobre diferentes herramientas utilizadas en el desarrollo web. Mi
+          objetivo es brindar un aporte valioso al conocimiento de estas
+          tecnologías y ayudarte a aprovechar al máximo su potencial.
+        </p>
+        <p>
+          El mundo del desarrollo web está en constante evolución, y dominar las
+          herramientas es fundamental para crear aplicaciones modernas y
+          eficientes. A través de artículos, tutoriales y ejemplos prácticos,
+          espero brindarte información clara y concisa para que puedas adquirir
+          nuevas habilidades y mejorar tus proyectos.
+        </p>
+        <p>
+          Si estás interesado en explorar mi trabajo y proyectos relacionados
+          con el desarrollo web, puedes visitar mi
+          <a
+            class="github-link"
+            href="https://github.com/lekkk02"
+            target="_blank"
+            ><img
+              src="/src/githublogo.png"
+              alt="Logo de GitHub"
+              width="20"
+              height="20"
+            />
+            GitHub</a
+          >, donde comparto código y colaboraciones en un entorno de desarrollo
+          abierto.
+        </p>
+      </div>
+    </div>
+
+    <!-- Agregar los scripts de Bootstrap al final del archivo -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
